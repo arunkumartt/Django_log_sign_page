@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Attractive Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    #header {
+      background-color:floralwhite;
+      color: #fff;
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+      padding: 20px;
+      text-align: center;
+    }
+
+    #banner {
+      background-image: url("https://img.freepik.com/free-photo/illustration-cosmic-background-with-orange-neon-laser-lights_181624-19567.jpg?w=1060&t=st=1684911513~exp=1684912113~hmac=e8cfde78acb83d5930b839394399e3f46f61d56635fe73e97aecf18de2e8ca8e");
+      background-size: 100% 100%;
+      height: 700px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      font-size: 36px;
+    }
+    a{
+            width: 10%;
+            height: 40px;
+            margin: 10px auto;
+            justify-content: center;
+            display: block;
+            color: #fff;
+            background: #573b8a;
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 20px;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            transition: .2s ease-in;
+            cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <h1>HOME PAGE</h1>
+    <a href="{% url 'signup' %}" class="logout-button">LOGOUT</a>
+    <!-- <button href="login" type="submit" value= "signup">LOGOUT</button> -->
+  </div>
+
+  <div id="banner">
+    <h2>HELLO WELCOME TO MY WORLD!</h2>
+    <!-- <button type="submit" value= "signup"onclick="home">LOGOUT</button> -->
+  </div>
+</body>
+</html>
+
+
+
